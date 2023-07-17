@@ -1,0 +1,55 @@
+{% load static %}
+<html>
+
+<style type="text/css">
+	.content{
+	max-width: 500px;
+	margin: auto;
+	}
+	a {
+	color: red;
+	font-weight: lighter;
+	}
+	body{
+		background-image: linear-gradient(pink, yellow, blue);
+		background-size: cover;
+	}
+</style>
+
+<head>
+	<title style="font-size: 46px; color: black;">My first web page</title>
+</head>
+
+<body>
+	<div class="content">
+	<header id="mainheading" style="font-weight: bold;">About Me:</header>
+	<p style="font-size:46px:color:blue;">My name is Onershen Naidoo, and I am currently studying Software Engineering at HyperionDev. Upon completion of my course, I aspire to pursue Mechanical Engineering. 
+	During my time in high school, I gained experience in both engineering and coding. I embarked on various projects that allowed me to explore different continents. 
+	Developing inventions has always been a passionate endeavor for me. Throughout my journey, my family has been a constant source of motivation, pushing me to strive for excellence in my current projects 
+	and supporting me during challenging periods. My ultimate goal is to emulate the success of Elon Musk and establish a company that brings about significant changes in the world.</p>
+	<label style="font-weight: bold;">Contact details:</label>
+	<p>Onershen Naidoo</p>
+	<p>Onie.naidoo20@gmail.com</p>
+	<p>instagram: @onershennaidoo</p>
+	<img src = "{%static 'images/images01.jpg' %}" alt="Profile Picture" style="width: 200px; height: auto;">
+	<label style="font-weight: bold;">
+	Skills:</label>
+	<ul>
+		<li>Office</li>
+		<li>Delphi</li>
+		<li>Python</li>
+		<li>Problem solving skills</li>
+	</ul>
+	<label style="font-weight: bold;">Education:</label>
+	<ul>
+		<li>2007-2014 : Escombe Primary School</li>
+		<li>2015-2020 : Star College Boys high</li>
+		<li>2023- : HyperionDev Software development</li>
+	</ul>
+	<label style="font-weight: bold;">Projects:</label>
+	<a target = "blank" href ="https://drive.google.com/file/d/1Hv1JyqkZwn4n2KLz1T12LLdswrv0YYyn/view?usp=sharing">
+		Guidance Glasses
+	</a>
+	</div>
+</body>
+</html>
